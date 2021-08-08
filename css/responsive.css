@@ -1,0 +1,79 @@
+@media (max-width:600px) {
+
+  .main-title {
+   max-width: 60%;
+   text-align: center;
+  }
+
+  .title_sub {
+    text-align: center;
+  }
+  
+  .header img {
+    width: 40%;
+  }  
+
+  .horisontal-img {
+    height: 20vh;
+  }
+  
+  .trusted-brands p {
+    font-size: 1rem;
+    font-weight: 600;
+
+
+} 
+  
+  
+  /*.nav > .navbar-toggler {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .navbar-toggler > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+  
+    
+    .nav > .navbar-toggler > label:hover,.nav  #nav-check:checked ~ .navbar-toggler > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .nav > .navbar-toggler > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background: linear-gradient(80deg, #1de099, #1dc8cd);
+      height: 0px;
+      z-index: 5;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+}
+
+*/
