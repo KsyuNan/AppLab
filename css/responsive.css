@@ -56,29 +56,17 @@
 .prising-box {
  width: 200px;
 }
-
-.prising-title h3   {
-  font-size: 28pt;
-  color: #242f51;
+.accordion {
+  width: 100%;
 }
-
-.feautures-title h3 {
-  color: #242f51;
-} 
-
-.designed-title h3 {
-  color: #242f51;
-}
-
-.ultimate-title h3{
-  color: #242f51;
-}
-
-.choose-title h3 {
-  color: #242f51;
-}
-
 
 
 }
   
+
+@media  screen and (max-width:960px) {
+  .title {
+    width: 100%;
+    margin: 0;
+  }
+}

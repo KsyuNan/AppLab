@@ -27,7 +27,7 @@
 
 <!---Header area -->
   
-<header class="header">
+<header id="header" class="header">
     <div class="container">
 
     <!---Navbar-->
@@ -60,11 +60,14 @@
               <a class="nav-link" href="#">Testiminial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Faq</a>
+              <a class="nav-link pop-link" href="#">Faq</a>
             </li>
-            <li class="nav-item">
-              <button class="btn-header">Try for free</button>
+          
+            <li  class="nav-item pop-link">
+              <button class="btn-header ">Try for free</button>
             </li>
+
+           
           
           </ul>
         </div>
@@ -83,8 +86,8 @@
           <p>Increase productivity with a simple to-do app. app for
              managing your personal budgets</p>
        </div> 
-          <button class="btn-video">Try for free</button>
-          <a class="video" href="#">Watch demo video</a>
+          <button  class="btn-video">Try for free</button>
+          <a  href="" class="" href="#popup">Watch demo video</a>
     </div>
 
 
@@ -565,22 +568,22 @@
               </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                    New update fixed all bug and issues
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                     How to contact with riders emergency?
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                 </div>
               </div>
@@ -597,7 +600,7 @@
     <div class="container"> 
    <div class="download-section">
      <div class="download-title">
-       <h5>Download our App now!</h5>
+       <h3>Download our App now!</h3>
        <p>The rise of mobile devices transforms the way we consume information entirely
         and the world's most elevant channels such as Facebook.</p> 
          <span>
@@ -606,8 +609,8 @@
           https://play.google.com/store?hl=en_US&gl=US
 
 --->
-       <button><img src="image/google-1.png" alt=""></button> 
-       <button>   <img src="image/apple.png" alt=""></button> 
+       <a target="_blank" href="https://play.google.com/store?hl=en_US&gl=US" id="btn-download-play"><img src="image/google-1.png" alt=""></a> 
+       <a target="_blank" href=" https://www.apple.com/app-store/" id="btn-download-apple"><img src="image/apple.png" alt=""></a> 
          </span>
         </div>
     <div class="download-image">
@@ -620,7 +623,7 @@
 <!------footer------>
 
 
-<footer>
+<footer class="footer">
    <div class="container">
      <div class="footer-title">
     <h4><span style="color:#fcae61">App</span>Bar</h4>
@@ -660,11 +663,53 @@
         </li>
        </ul>
     </div>
-    <a class="footer-copyright" href="">Copyright© Arifur Rahman Tushar 2019. All rights reserved</a>
 </div>
 </div>
 </div>
 </footer>
+
+
+
+<div id="popup" class="popup">
+  <a href="#header" class="popup__area"></a>
+  <div class="popup__body">
+     <div class="popup__content">
+        <a href="" class="popup__close">X</a>
+        <div class="popup__title">Modal window</div>
+        <div class="popup__text"></div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cum doloribus. 
+        Laudantium, voluptatibus id mollitia est quis totam dicta, harum quidem distinctio deserunt fugit veniam quo? Temporibus sequi saepe in!
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
