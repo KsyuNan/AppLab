@@ -1,5 +1,9 @@
 @media (max-width:600px) {
 
+  header {
+    text-align: center;
+  }
+
   .main-title {
    max-width: 60%;
    text-align: center;
@@ -20,60 +24,61 @@
   .trusted-brands p {
     font-size: 1rem;
     font-weight: 600;
-
-
 } 
-  
-  
-  /*.nav > .navbar-toggler {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .navbar-toggler > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-  
-    
-    .nav > .navbar-toggler > label:hover,.nav  #nav-check:checked ~ .navbar-toggler > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    
-    .nav > .navbar-toggler > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background: linear-gradient(80deg, #1de099, #1dc8cd);
-      height: 0px;
-      z-index: 5;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
+
+.features-title-image img{
+  width: 50%;
+  align-items: center;
+
+
 
 }
 
-*/
+.feautures-title {
+  text-align: center;
+}
+
+/*ultimate*/
+
+.ultimate-title, .feautures-title, .prising-title {
+  width: 100%;
+  text-align: center;
+}
+
+.ultimate-img img {
+  max-width: 50%;
+  height: auto;
+  padding: 5%;
+  display: block; 
+  margin: 0 auto;
+}
+
+.prising-box {
+ width: 200px;
+}
+
+.prising-title h3   {
+  font-size: 28pt;
+  color: #242f51;
+}
+
+.feautures-title h3 {
+  color: #242f51;
+} 
+
+.designed-title h3 {
+  color: #242f51;
+}
+
+.ultimate-title h3{
+  color: #242f51;
+}
+
+.choose-title h3 {
+  color: #242f51;
+}
+
+
+
+}
+  
